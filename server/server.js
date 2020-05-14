@@ -2,7 +2,6 @@ require('./config/config.js');
 
 const express = require('express');
 const mongoose = require('mongoose');
-require('./routes/usuario.js');
 const app = express();
 const bodyParser = require('body-parser');
 
